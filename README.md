@@ -7,9 +7,11 @@ gunicorn Main:app --workers 16
 
 ### To run application as daemon
 
+```
 service search start
 service search stop
+```
 
-To run at boot-time
+#### To run at boot-time
 
 update-rc.d search defaults
