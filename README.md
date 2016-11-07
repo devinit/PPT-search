@@ -9,7 +9,6 @@ gunicorn Main:app --workers 4
 
 ### To run application as daemon for systems with upstart
 
-
 Copy the upstart script (search.conf) to /etc/init and then edit it accordingly as commented out.
 
 ```
@@ -24,7 +23,6 @@ service search stop
 ```
 
 #### To run at boot-time
-
 ```
 update-rc.d search defaults
 ```
