@@ -3,13 +3,14 @@ These are the files for the PPT introductory pages. These are written in Flask, 
 
 ### To start application with gunicorn
 
-gunicorn Main:app --workers 16
+gunicorn Main:app
 
 ### To run application as daemon
 
-service search start
-service search stop
+```service search start```
 
-To run at boot-time
+```service search stop ```
+
+#### To run at boot-time
 
 update-rc.d search defaults

@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template, request, flash
 from mainFunction import clean_variables, translations, clean_variables2, translations2
-from wtforms import Form, BooleanField, TextField, validators
 from flask_cors import CORS
 from flask import jsonify
 
