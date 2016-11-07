@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template, request, flash
 from mainFunction import clean_variables, translations, clean_variables2, translations2
 from wtforms import Form, BooleanField, TextField, validators
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from flask import jsonify
 
 app = Flask(__name__)
@@ -74,5 +74,6 @@ def input_dropdown():
             links,
             results_in_list),
         scroll='results')
+
 if __name__ == "__main__":
     app.run(debug=True)
