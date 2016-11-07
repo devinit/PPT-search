@@ -1,108 +1,36 @@
-pip install -r requirements.txt 
-Downloading/unpacking autopep8==1.2.4 (from -r requirements.txt (line 1))
-  Downloading autopep8-1.2.4-py2.py3-none-any.whl (41kB): 41kB downloaded
-Downloading/unpacking click==6.6 (from -r requirements.txt (line 2))
-  Downloading click-6.6.tar.gz (283kB): 283kB downloaded
-  Running setup.py (path:/tmp/pip_build_poolparty/click/setup.py) egg_info for package click
-    
-    warning: no previously-included files matching '*.pyc' found under directory 'docs'
-    warning: no previously-included files matching '*.pyo' found under directory 'docs'
-    warning: no previously-included files matching '*.pyc' found under directory 'tests'
-    warning: no previously-included files matching '*.pyo' found under directory 'tests'
-    warning: no previously-included files matching '*.pyc' found under directory 'examples'
-    warning: no previously-included files matching '*.pyo' found under directory 'examples'
-    no previously-included directories found matching 'docs/_build'
-Downloading/unpacking Flask==0.11.1 (from -r requirements.txt (line 3))
-  Downloading Flask-0.11.1-py2.py3-none-any.whl (80kB): 80kB downloaded
-Downloading/unpacking Flask-Cors==3.0.2 (from -r requirements.txt (line 4))
-  Downloading Flask_Cors-3.0.2-py2.py3-none-any.whl
-Downloading/unpacking gunicorn==19.6.0 (from -r requirements.txt (line 5))
-  Downloading gunicorn-19.6.0-py2.py3-none-any.whl (114kB): 114kB downloaded
-Downloading/unpacking html5lib==0.999999999 (from -r requirements.txt (line 6))
-  Downloading html5lib-0.999999999-py2.py3-none-any.whl (112kB): 112kB downloaded
-Downloading/unpacking isodate==0.5.4 (from -r requirements.txt (line 7))
-  Downloading isodate-0.5.4.tar.gz
-  Running setup.py (path:/tmp/pip_build_poolparty/isodate/setup.py) egg_info for package isodate
-    
-Downloading/unpacking itsdangerous==0.24 (from -r requirements.txt (line 8))
-  Downloading itsdangerous-0.24.tar.gz (46kB): 46kB downloaded
-  Running setup.py (path:/tmp/pip_build_poolparty/itsdangerous/setup.py) egg_info for package itsdangerous
-    
-    warning: no previously-included files matching '*' found under directory 'docs/_build'
-Downloading/unpacking Jinja2==2.8 (from -r requirements.txt (line 9))
-  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB): 263kB downloaded
-Downloading/unpacking keepalive==0.5 (from -r requirements.txt (line 10))
-  Downloading keepalive-0.5.zip
-  Running setup.py (path:/tmp/pip_build_poolparty/keepalive/setup.py) egg_info for package keepalive
-    
-Downloading/unpacking lxml==3.6.4 (from -r requirements.txt (line 11))
-  Downloading lxml-3.6.4.tar.gz (3.7MB): 3.7MB downloaded
-  Running setup.py (path:/tmp/pip_build_poolparty/lxml/setup.py) egg_info for package lxml
-    Building lxml version 3.6.4.
-    Building without Cython.
-    ERROR: /bin/sh: 1: xslt-config: not found
-    
-    ** make sure the development packages of libxml2 and libxslt are installed **
-    
-    Using build configuration of libxslt
-    
-    warning: no previously-included files found matching '*.py'
-Downloading/unpacking MarkupSafe==0.23 (from -r requirements.txt (line 12))
-  Downloading MarkupSafe-0.23.tar.gz
-  Running setup.py (path:/tmp/pip_build_poolparty/MarkupSafe/setup.py) egg_info for package MarkupSafe
-    
-Downloading/unpacking pep8==1.7.0 (from -r requirements.txt (line 13))
-  Downloading pep8-1.7.0-py2.py3-none-any.whl (41kB): 41kB downloaded
-Downloading/unpacking pyparsing==2.1.10 (from -r requirements.txt (line 14))
-  Downloading pyparsing-2.1.10-py2.py3-none-any.whl (56kB): 56kB downloaded
-Downloading/unpacking rdflib==4.2.1 (from -r requirements.txt (line 15))
-  Downloading rdflib-4.2.1.tar.gz (889kB): 889kB downloaded
-  Running setup.py (path:/tmp/pip_build_poolparty/rdflib/setup.py) egg_info for package rdflib
-    
-    no previously-included directories found matching 'docs/_build'
-    warning: no previously-included files matching '*.pyc' found anywhere in distribution
-    warning: no previously-included files matching '*$py.class' found anywhere in distribution
-Downloading/unpacking six==1.10.0 (from -r requirements.txt (line 16))
-  Downloading six-1.10.0-py2.py3-none-any.whl
-Downloading/unpacking SPARQLWrapper==1.7.6 (from -r requirements.txt (line 17))
-  Downloading SPARQLWrapper-1.7.6.zip
-  Running setup.py (path:/tmp/pip_build_poolparty/SPARQLWrapper/setup.py) egg_info for package SPARQLWrapper
-    
-    warning: no previously-included files found matching 'Makefile'
-Downloading/unpacking webencodings==0.5 (from -r requirements.txt (line 18))
-  Downloading webencodings-0.5.tar.gz
-  Running setup.py (path:/tmp/pip_build_poolparty/webencodings/setup.py) egg_info for package webencodings
-    
-Downloading/unpacking Werkzeug==0.11.11 (from -r requirements.txt (line 19))
-  Downloading Werkzeug-0.11.11-py2.py3-none-any.whl (306kB): 306kB downloaded
-Downloading/unpacking WTForms==2.1 (from -r requirements.txt (line 20))
-  Downloading WTForms-2.1.zip (553kB): 553kB downloaded
-  Running setup.py (path:/tmp/pip_build_poolparty/WTForms/setup.py) egg_info for package WTForms
-    
-    warning: no previously-included files matching '*' found under directory 'docs/_build'
-    warning: no previously-included files matching '*.pyc' found under directory 'tests'
-Downloading/unpacking setuptools>=18.5 (from html5lib==0.999999999->-r requirements.txt (line 6))
-  Downloading setuptools-28.8.0-py2.py3-none-any.whl (472kB): 472kB downloaded
-Installing collected packages: autopep8, click, Flask, Flask-Cors, gunicorn, html5lib, isodate, itsdangerous, Jinja2, keepalive, lxml, MarkupSafe, pep8, pyparsing, rdflib, six, SPARQLWrapper, webencodings, Werkzeug, WTForms, setuptools
-Cleaning up...
-Exception:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
-    status = self.run(options, args)
-  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
-    requirement_set.install(install_options, global_options, root=options.root_path)
-  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
-    requirement.install(install_options, global_options, *args, **kwargs)
-  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 672, in install
-    self.move_wheel_files(self.source_dir, root=root)
-  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 902, in move_wheel_files
-    pycompile=self.pycompile,
-  File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 206, in move_wheel_files
-    clobber(source, lib_dir, True)
-  File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 193, in clobber
-    os.makedirs(destsubdir)
-  File "/usr/lib/python2.7/os.py", line 157, in makedirs
-    mkdir(name, mode)
-OSError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/autopep8-1.2.4.dist-info'
+apt-xapian-index==0.45
+argparse==1.2.1
+autopep8==1.2.4
+chardet==2.0.1
+click==6.6
+colorama==0.2.5
+Flask==0.11.1
+Flask-Cors==3.0.2
+gunicorn==19.6.0
+html5lib==0.999999999
+isodate==0.5.4
+itsdangerous==0.24
+Jinja2==2.8
+keepalive==0.5
+lxml==3.3.3
+MarkupSafe==0.18
+pep8==1.4.6
+pycurl==7.19.3
+pyinotify==0.9.4
+pyOpenSSL==0.13
+pyparsing==2.0.1
+python-apt==0.9.3.5ubuntu2
+python-dateutil==1.5
+python-debian==0.1.21-nmu2ubuntu2
+rdflib==2.4.2
+requests==2.2.1
+simplejson==3.3.1
+six==1.5.2
+SPARQLWrapper==1.4.1
+ssh-import-id==3.21
+urllib3==1.7.1
+Werkzeug==0.9.4
+wheel==0.24.0
+wsgiref==0.1.2
+WTForms==1.0.1
 
-Storing debug log for failure in /home/poolparty/.pip/pip.log
