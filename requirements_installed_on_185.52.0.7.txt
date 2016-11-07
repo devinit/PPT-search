@@ -1,0 +1,20 @@
+python-autopep8 - tool that automatically formats Python code to conform to PEP 8
+click - Click packages
+??? Flask ---> python-flask - micro web framework based on Werkzeug, Jinja2 and good intentions ???
+??? Flask-Cors ??? 
+gunicorn - Event-based HTTP/WSGI server
+python-html5lib - HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
+python-isodate - ISO 8601 date/time/duration parser and formatter (Python module)
+python-itsdangerous - Various helpers to pass trusted data to untrusted environment - python 2.x
+python-jinja2 - small but fast and easy to use stand-alone template engine
+??? keepalived - Failover and monitoring daemon for LVS clusters ???
+python-lxml - pythonic binding for the libxml2 and libxslt libraries
+python-markupsafe - HTML/XHTML/XML string library for Python
+pep8 - Python PEP 8 code style checker - python2
+python-pyparsing - Python parsing module
+python-rdflib - RDF library containing an RDF triple store and RDF/XML parser/serializer
+python-six - Python 2 and 3 compatibility library (Python 2 interface)
+python-sparqlwrapper - SPARQL endpoint interface to Python
+??? webencodings ???
+python-werkzeug - collection of utilities for WSGI applications
+python-wtforms - flexible forms validation and rendering library for Python
