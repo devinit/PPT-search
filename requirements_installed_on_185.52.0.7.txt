@@ -34,3 +34,4 @@ wheel==0.24.0
 wsgiref==0.1.2
 WTForms==1.0.1
 
+NOTE: webencodings==0.5 is required (requirements.txt) but it is missing on production.
