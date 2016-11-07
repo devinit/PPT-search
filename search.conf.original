@@ -1,0 +1,12 @@
+description "gunicorn server running ppt-search"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+setuid allan #change to the user who will be running this script
+setgid sudo #change to the group you would want to own this application
+
+env PATH=home/allan/virtualenvs/ppt #python executable path
+chdir /home/allan/PPT-search #app directory
+exec gunicorn Main:app --workers 4 --bind unix:search.sock -m 007

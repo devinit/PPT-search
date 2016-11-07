@@ -1,0 +1,66 @@
+UPSTART_INSTANCE=
+UPSTART_JOB=search
+TERM=linux
+PATH=/usr/bin/python
+PWD=/opt/ppt_repositories/ppt-search
+[2016-11-07 14:48:41 +0000] [634] [INFO] Starting gunicorn 19.6.0
+[2016-11-07 14:48:41 +0000] [634] [INFO] Listening at: unix:search.sock (634)
+[2016-11-07 14:48:41 +0000] [634] [INFO] Using worker: sync
+[2016-11-07 14:48:41 +0000] [641] [INFO] Booting worker with pid: 641
+[2016-11-07 14:48:41 +0000] [642] [INFO] Booting worker with pid: 642
+[2016-11-07 14:48:41 +0000] [647] [INFO] Booting worker with pid: 647
+[2016-11-07 14:48:41 +0000] [648] [INFO] Booting worker with pid: 648
+[2016-11-07 14:48:52 +0000] [641] [INFO] Worker exiting (pid: 641)
+[2016-11-07 14:48:52 +0000] [642] [INFO] Worker exiting (pid: 642)
+[2016-11-07 14:48:52 +0000] [647] [INFO] Worker exiting (pid: 647)
+[2016-11-07 14:48:52 +0000] [634] [INFO] Handling signal: term
+[2016-11-07 14:48:52 +0000] [648] [INFO] Worker exiting (pid: 648)
+[2016-11-07 14:48:52 +0000] [634] [INFO] Shutting down: Master
+UPSTART_INSTANCE=
+UPSTART_JOB=search
+TERM=linux
+PATH=/usr/bin/python
+PWD=/opt/ppt_repositories/ppt-search
+[2016-11-07 14:48:57 +0000] [668] [INFO] Starting gunicorn 19.6.0
+[2016-11-07 14:48:57 +0000] [668] [INFO] Listening at: unix:search.sock (668)
+[2016-11-07 14:48:57 +0000] [668] [INFO] Using worker: sync
+[2016-11-07 14:48:57 +0000] [675] [INFO] Booting worker with pid: 675
+[2016-11-07 14:48:57 +0000] [676] [INFO] Booting worker with pid: 676
+[2016-11-07 14:48:57 +0000] [677] [INFO] Booting worker with pid: 677
+[2016-11-07 14:48:57 +0000] [684] [INFO] Booting worker with pid: 684
+[2016-11-07 14:49:39 +0000] [676] [INFO] Worker exiting (pid: 676)
+[2016-11-07 14:49:39 +0000] [675] [INFO] Worker exiting (pid: 675)
+[2016-11-07 14:49:39 +0000] [668] [INFO] Handling signal: term
+[2016-11-07 14:49:39 +0000] [677] [INFO] Worker exiting (pid: 677)
+[2016-11-07 14:49:39 +0000] [684] [INFO] Worker exiting (pid: 684)
+[2016-11-07 14:49:39 +0000] [668] [INFO] Shutting down: Master
+UPSTART_INSTANCE=
+UPSTART_JOB=search
+TERM=linux
+PATH=/usr/bin/python
+PWD=/opt/ppt_repositories/ppt-search
+[2016-11-07 14:49:42 +0000] [705] [INFO] Starting gunicorn 19.6.0
+[2016-11-07 14:49:42 +0000] [705] [INFO] Listening at: unix:search.sock (705)
+[2016-11-07 14:49:42 +0000] [705] [INFO] Using worker: sync
+[2016-11-07 14:49:42 +0000] [712] [INFO] Booting worker with pid: 712
+[2016-11-07 14:49:42 +0000] [713] [INFO] Booting worker with pid: 713
+[2016-11-07 14:49:42 +0000] [718] [INFO] Booting worker with pid: 718
+[2016-11-07 14:49:42 +0000] [719] [INFO] Booting worker with pid: 719
+[2016-11-07 14:49:46 +0000] [713] [INFO] Worker exiting (pid: 713)
+[2016-11-07 14:49:46 +0000] [705] [INFO] Handling signal: term
+[2016-11-07 14:49:46 +0000] [719] [INFO] Worker exiting (pid: 719)
+[2016-11-07 14:49:46 +0000] [712] [INFO] Worker exiting (pid: 712)
+[2016-11-07 14:49:46 +0000] [718] [INFO] Worker exiting (pid: 718)
+[2016-11-07 14:49:46 +0000] [705] [INFO] Shutting down: Master
+UPSTART_INSTANCE=
+UPSTART_JOB=search
+TERM=linux
+PATH=/usr/bin/python
+PWD=/opt/ppt_repositories/ppt-search
+[2016-11-07 14:49:52 +0000] [744] [INFO] Starting gunicorn 19.6.0
+[2016-11-07 14:49:52 +0000] [744] [INFO] Listening at: unix:search.sock (744)
+[2016-11-07 14:49:52 +0000] [744] [INFO] Using worker: sync
+[2016-11-07 14:49:52 +0000] [751] [INFO] Booting worker with pid: 751
+[2016-11-07 14:49:52 +0000] [752] [INFO] Booting worker with pid: 752
+[2016-11-07 14:49:52 +0000] [757] [INFO] Booting worker with pid: 757
+[2016-11-07 14:49:52 +0000] [758] [INFO] Booting worker with pid: 758
