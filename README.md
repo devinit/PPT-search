@@ -4,7 +4,7 @@ These are the files for the PPT introductory pages. These are written in Flask, 
 ### To start application with gunicorn
 
 ```
-gunicorn Main:app --workers 4
+gunicorn Main:app --workers 4 --bind 0.0.0.0:8000
 ```
 
 
