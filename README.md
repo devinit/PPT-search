@@ -23,7 +23,7 @@ service search start
 service search stop
 ```
 
-#### To run at boot-time
+### To run at boot-time
 ```
 update-rc.d search defaults
 ```
