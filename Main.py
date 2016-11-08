@@ -8,6 +8,9 @@ app = Flask(__name__)
 CORS(app)
 app.secret_key = 'some_secret'
 
+@app.route('/')
+def index():
+    return "PPT search API app running"
 
 @app.route('/translator', methods=['POST'])
 def input_dropdown():
