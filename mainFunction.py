@@ -5,26 +5,25 @@ import re
 
 # Clean variables chosen by the user
 
-
 def clean_variables(source, match, term):
     if source == "er":
         # call the right SPARQL endpoint
         URL1 = []
         URL2 = []
         URL3 = []
-        baseURL1 = URL1.append('http://joinedupdata.org/PoolParty/sparql/')
-        sourceURL1 = URL1.append('Sectors')
+        baseURL1 = URL1.append('http://178.79.158.119:3030/')
+        sourceURL1 = URL1.append('Sectors/query')
         sourceURL1 = URL1.append('')
         sourceURL1 = ''.join(URL1)
         sourceURL1 = str(sourceURL1)
-        baseURL2 = URL2.append('http://joinedupdata.org/PoolParty/sparql/')
-        sourceURL2 = URL2.append('Surveys')
+        baseURL2 = URL2.append('http://178.79.158.119:3030/')
+        sourceURL2 = URL2.append('Surveys/query')
         sourceURL2 = URL2.append('')
         sourceURL2 = ''.join(URL2)
         sourceURL2 = str(sourceURL2)
         print sourceURL2
-        baseURL3 = URL3.append('http://joinedupdata.org/PoolParty/sparql/')
-        sourceURL3 = URL3.append('Indicators')
+        baseURL3 = URL3.append('http://178.79.158.119:3030/')
+        sourceURL3 = URL3.append('Indicators/query')
         sourceURL3 = URL3.append('')
         sourceURL3 = ''.join(URL3)
         sourceURL3 = str(sourceURL3)
@@ -268,8 +267,9 @@ def clean_variables(source, match, term):
                 results_clean.append(i)
     else:
         URL = []
-        baseURL = URL.append('http://joinedupdata.org/PoolParty/sparql/')
+        baseURL = URL.append('http://178.79.158.119:3030/')
         sourceURL = URL.append(source)
+        sourceURL = URL.append('/query')
         sourceURL = URL.append('')
         sourceURL = ''.join(URL)
         sourceURL = str(sourceURL)
@@ -487,8 +487,9 @@ def translations(
 
 def clean_variables2(source, match, code):
     URL = []
-    baseURL = URL.append('http://joinedupdata.org/PoolParty/sparql/')
+    baseURL = URL.append('http://178.79.158.119:3030/')
     sourceURL = URL.append(source)
+    sourceURL = URL.append('/query')    
     sourceURL = URL.append('')
     sourceURL = ''.join(URL)
     sourceURL = str(sourceURL)
